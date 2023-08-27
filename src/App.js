@@ -4,6 +4,7 @@ import Analytics from "./components/Analytics";
 import Newsletter from "./components/Newsletter";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
+import { CopyRight } from "./components/CopyRight";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Newsletter/>
       <Cards/>
       <Footer/>
+      <CopyRight/>
     </div>
   );
 }
